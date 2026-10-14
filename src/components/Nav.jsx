@@ -4,10 +4,13 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <Router>
     <nav className="navbar">
+      <Link to="/">Home</Link>
+      <Link to="/search">Search</Link>
+      <Link to="/watchlist">Watchlist</Link>
+      <Link to="/originals">Originals</Link>
+      <Link to="/movies">Movies</Link>
     </nav>
-    </Router>
     )
 }
 

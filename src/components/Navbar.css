@@ -1,0 +1,35 @@
+* {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  max-width: 130px;
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  font-size: 16px;
+  margin-right: auto;
+}
+
+.nav__links img {
+  height: 30px;
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  height: 60px;
+}
